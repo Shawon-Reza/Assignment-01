@@ -8,6 +8,24 @@
     box-sizing: border-box;
     font-family: Azeret Mono;
 }
+.common-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+
+}
+.common-heading{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+.common-heading2{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
 /* Navbar (nav) Start here */
 .nav{
     width: 1440px;
@@ -67,14 +85,6 @@
     font-weight: 800;
     margin-bottom: 24px;
 }
-.common-description{
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    opacity: 0.7;
-
-}
 .p1-btn{
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -82,4 +92,81 @@
     height: 66px;
     color:rgb(255, 255, 255) ;
     margin:32px 395px 44px 395px ;
+}
+/* Page 02 (p2) Start From Here */
+.p2{
+    width: 1140px;
+    height: 1395px;
+    margin: 0px auto;
+    margin-top: 74px;
+    margin-bottom: 88px;
+    background-color:rgba(13, 19, 33, 0.02);
+}
+.p2-container{
+    margin: 80px 97px;
+    margin-top: 80px;
+    position: absolute;
+}
+.p2-text-container{
+    text-align: center;
+    width: 852px;
+    height: 115px;
+    margin: 0px 47px 48px 47px;
+}
+.p2-text-heading{
+    margin-bottom: 24px;
+}
+.p2-section1{
+    border-radius: 16px;
+    width: 946px;
+    height: 336px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 0px auto;
+    margin-bottom: 32px;
+}
+.p2-section2{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 0px auto;
+    margin-bottom: 32px;
+}
+.p2-section3{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 0px auto;
+
+}
+.p2-section-container{
+      display: flex;
+      margin: 48px;
+      gap: 300px;
+
+
+
+      
+}
+
+.p2 img {
+    width: 206.4px;
+    height: 187.32px;
+}
+
+
+.common-description {
+ margin:16px 0px 32px 0px ;
+}
+.p2-conrainer-div {
+    width: 477px;
+    height: 220px;
+}
+.p2-btn{
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
 }
