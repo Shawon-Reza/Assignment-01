@@ -170,3 +170,38 @@
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
+/* Page 3 Start here */
+.p3{
+    
+    width: 1140px;
+    height: 775px;
+    margin: 0px auto;
+    margin-bottom: 151px;
+}
+.p3-text-container{
+     text-align: center;
+}
+
+.p3-video-section{
+    width: 1140px;
+    height: 614px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;    
+}
+.p3-video-container{
+    width: 1130px;
+    height: 610px;
+    border-radius: 16px;
+    margin: 0px auto;
+    padding: 32px ;
+    
+}
+.p3-video{
+height: 100%;
+width: 100%;
+border-radius: 16px;
+}
+.p3 .common-description {
+    margin: 24px 0px 48px 0px;
+}
