@@ -205,3 +205,10 @@ border-radius: 16px;
 .p3 .common-description {
     margin: 24px 0px 48px 0px;
 }
+/* Page 05 */
+.p5{
+    background-image: url("../assets/handshake.jpg");
+    width: 1140px;
+height: 313px
+    
+}
