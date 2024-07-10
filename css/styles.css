@@ -204,11 +204,58 @@ border-radius: 16px;
 }
 .p3 .common-description {
     margin: 24px 0px 48px 0px;
+    
+
 }
 /* Page 05 */
 .p5{
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
     width: 1140px;
-height: 313px
+    height: 314px;
+    padding:64px 48px ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    margin: 0px auto;
+    margin-bottom:79px ;
+    border-radius: 16px;
     
+}
+.p5-heading{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+.p5-container{
+     width: 1044px;
+    height: 186px;
+}
+.p5 .common-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 16px 0px 24px 0px;
+}
+.p5-text-container{
+    text-align: center;
+}
+.p5-form-container input[type="text"] {
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-left: 180px;
+    margin-top: 30px;
+     
+}
+.p5-form-container input[type="submit"]{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-right: 180px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
 }
