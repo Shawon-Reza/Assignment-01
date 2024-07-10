@@ -216,8 +216,13 @@ border-radius: 16px;
     margin: 0px auto;
     margin-bottom: 49px;
 }
+.p4 .p4-first-container .common-description{
+    margin-bottom: 48px;
+    margin-top: 24px;
+}
 .p4 .p4-second-container .common-description{
     margin-bottom: 48px;
+    margin-top: 24px;
 }
 .p4-first-container{
     text-align: center;
