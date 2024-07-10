@@ -207,6 +207,94 @@ border-radius: 16px;
     
 
 }
+/* Page 04 Start Here */
+.p4{
+    width: 1140px;
+    height: 1380px;
+    margin-bottom: 49px;
+    background-color: white;
+    margin: 0px auto;
+    margin-bottom: 49px;
+}
+.p4 .p4-first-container .common-description{
+    margin-bottom: 48px;
+}
+.p4-first-container{
+    text-align: center;
+    /* display: flex; */
+}
+.p4-first-img-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 111px;
+    background-color: white;
+}
+.p4-c1-img-container{
+    width: 364px;
+    height: 360px;
+    border-radius: 16px;
+    padding: 40px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.p4-common-heading{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    /* margin: 24px 0px 8px 0px; */
+    /* margin-top: 24px; */
+}
+.p4-common-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    
+}
+.p4-common-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700
+}
+.p4-first-container .common-description {
+    margin: 24px 48px;
+}
+.p4 .img-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.p4 .img-2{
+    background: rgba(0, 76, 232, 0.05);
+}
+.p4 .img-3 {
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.p4-second-container{
+    text-align: center;
+}
+
+.p4-c2-common-div{
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    margin-bottom: 24px;
+    
+}
+.p4-c2-common-div-text{
+    text-align: start;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.p4-c2-common-div-text .common-description{
+    margin: 8px 0px 24px 0px;
+    border: 2px solid red;
+}
+
 /* Page 05 */
 .p5{
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/handshake.jpg");
@@ -258,4 +346,28 @@ border-radius: 16px;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+}
+/* Footer Part the end */
+.footer{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
+.footer-text{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+.icons{
+  list-style: none;
+  display: flex;
+  gap: 24px;
 }
