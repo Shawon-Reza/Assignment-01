@@ -92,6 +92,13 @@
     height: 66px;
     color:rgb(255, 255, 255) ;
     margin:32px 395px 44px 395px ;
+    cursor: pointer;
+}
+.p1-btn a{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
 }
 /* Page 02 (p2) Start From Here */
 .p2{
@@ -169,6 +176,8 @@
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    cursor: pointer;
+
 }
 /* Page 3 Start here */
 .p3{
@@ -226,7 +235,6 @@ border-radius: 16px;
 }
 .p4-first-container{
     text-align: center;
-    /* display: flex; */
 }
 .p4-first-img-container{
     display: flex;
@@ -248,8 +256,6 @@ border-radius: 16px;
     color: rgb(13, 19, 33);
     font-size: 24px;
     font-weight: 800;
-    /* margin: 24px 0px 8px 0px; */
-    /* margin-top: 24px; */
 }
 .p4-common-description{
     color: rgb(13, 19, 33);
@@ -351,6 +357,8 @@ border-radius: 16px;
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+
 }
 /* Footer Part the end */
 .footer{
